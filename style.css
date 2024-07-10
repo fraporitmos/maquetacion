@@ -1,0 +1,137 @@
+
+
+.container {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+  
+}
+h1{
+    font-size: 24px;
+}
+.logo {
+    width: 140px;
+    height: 133px;
+    margin-bottom: 50px;
+}
+
+input {
+    width: 435px;
+    height: 42px;
+    border: 1px solid #818181;
+    border-radius: 12px;
+    /*
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    top, rigth, botton, left
+    */
+    padding: 6px 0px 6px 12px;
+    margin-top: 12px;
+
+}
+
+.containerForgotPassword {
+    width: 435px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 5px 0 15px;
+}
+.forgotPassword{
+    text-decoration: none;
+    font-size: 14px;
+    color: #4285F4;
+}
+
+button{
+    background-color: #F1DB4F;
+    width: 435px;
+    border-radius: 12px;
+    border-width: 0;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 800;
+}
+.signUpSection{
+    display: flex;
+    align-items: center;
+    height: 120px;
+    width: 435px;
+    justify-content: center;
+}
+
+.divider{
+    width: 154px;
+    background-color: #A39797;
+    height: 1px;
+}
+
+
+.textOptionSignUp{
+    margin: 0px 12px 0px 12px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.googleSection{
+    display: flex;
+    align-items: center;
+}
+.imgGoogle{
+    width: 31px;
+    height: 31px;
+}
+.textGoogle{
+    color: #000;
+    margin-left: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.createAccountSection{
+    display: flex;
+    align-items: center;
+}
+
+.textCreateAccount{
+    margin-left: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+
+}
+
+
+@media only screen and (max-width: 680px) {
+    input,button{
+        width: 339px;
+    }
+    h1{
+        align-self: flex-start;
+    }
+  
+    .containerForgotPassword {
+        width: 339px;
+      
+    }
+    .signUpSection{
+     
+        width: 339px;
+    }
+
+    .divider{
+        width: 100px;
+        
+    }
+    .createAccountSection{
+        margin-top: 12px;
+   font-size: 12px;
+    }
+    
+}
+
