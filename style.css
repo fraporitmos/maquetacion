@@ -8,7 +8,6 @@
     justify-content: center;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
-  
 }
 h1{
     font-size: 24px;
@@ -135,3 +134,12 @@ button{
     
 }
 
+
+@media (min-width: 680px) and (orientation: landscape){
+    .container{
+        height: 100vh;
+        margin-bottom:100px;
+        margin-top: 100px;
+        scroll-behavior: auto;
+    }
+}
